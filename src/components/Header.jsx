@@ -8,17 +8,8 @@ const HeaderContainer = styled.header`
   background-color: black;
 `;
 
-const HeaderH1 = styled.h1`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-`;
-
 const HeaderUl = styled.ul`
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 20px;
   list-style: none;
   font-weight: 400;
@@ -28,7 +19,7 @@ const HeaderUl = styled.ul`
 export default function Header() {
   return (
     <HeaderContainer>
-      <HeaderH1>OZ코딩스쿨</HeaderH1>
+      <h1>OZ코딩스쿨</h1>
       <HeaderUl>
         <li>로그인</li>
         <li>회원가입</li>
